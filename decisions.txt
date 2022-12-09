@@ -1,0 +1,25 @@
+The ERC20 token has 2 functions:
+        mint function mints 1000 tokens for the calling account
+        transfer function to transfer tokens
+The getTokens function of yebelo contract has nested if conditions:
+            condition value1=0 and <= 100 is checked
+                            if < 100 value is stored in slab0
+                            else subtract 100 from value store 100 on slab0
+
+            condition value!=0 and <= 200 is checked
+                            if < 200 value is stored in slab0
+                            else subtract 200 from value store 200 on slab0
+            
+            condition value!=0 and <= 300 is checked
+                            if < 300 value is stored in slab0
+                            else subtract 300 from value store 300 on slab0
+            
+            condition value!=0 and <= 400 is checked
+                            if < 400 value is stored in slab0
+                            else subtract 400 from value store 400 on slab0
+            
+            condition value!=0 and <= 500 is checked
+                            if < 500 value is stored in slab0
+                            else subtract 500 from value store 500 on slab0
+
+            

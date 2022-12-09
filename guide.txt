@@ -1,0 +1,9 @@
+The ERC20 token is created with the help of openzeppelin
+
+The Yebelo contract has a Struct to store the slabs
+A mapping to store the address and slabs related to the address
+A a getTokens functions to implement the logic of slabs
+
+The contracts are also deployed on goerli network
+TestToken address:0xAa3083f253C37d83d7f97252c0eaE87d525cFCf2
+Yebelo address: 0x73d68F19E9f94ccb06b3e02A091B2423e9d483b5
